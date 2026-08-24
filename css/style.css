@@ -528,6 +528,8 @@ p.eyebrow.center { justify-content: center; width: 100%; }
     grid-template-columns: repeat(2, 1fr);
     gap: 26px;
 }
+.portfolio-card-featured { grid-column: 1 / -1; }
+.portfolio-card-featured .portfolio-media { height: 300px; }
 .portfolio-card {
     border: 1px solid var(--border);
     border-radius: var(--radius);
@@ -574,6 +576,7 @@ p.eyebrow.center { justify-content: center; width: 100%; }
 .portfolio-media-1 img { object-position: top; }
 .portfolio-media-2 img { object-position: top; }
 .portfolio-media-3 img { object-position: top center; }
+.portfolio-media-5 img { object-position: top; }
 .portfolio-media-4 { background: linear-gradient(135deg, #334155, #64748b); }
 .portfolio-media-4 img.sticker {
     width: 150px;
